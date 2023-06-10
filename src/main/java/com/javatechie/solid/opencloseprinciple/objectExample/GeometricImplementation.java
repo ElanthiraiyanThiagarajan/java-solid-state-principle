@@ -19,12 +19,10 @@ public class GeometricImplementation {
         sphere.radius= 10;
 
         List<GeometricObjects> cuboidList = new ArrayList<GeometricObjects>();
-        Application a = new Application();
+
         cuboidList.add(c);
         cuboidList.add(sphere);
-
-        System.out.println(a.get_total_volume(cuboidList));
-
+        System.out.println(new Application().get_total_volume(cuboidList));
     
         
 
