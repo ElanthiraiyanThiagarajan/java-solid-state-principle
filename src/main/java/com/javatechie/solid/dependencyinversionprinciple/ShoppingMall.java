@@ -16,7 +16,7 @@ public class ShoppingMall {
        // DebitCard debitCard=new DebitCard();
        // CreditCard creditCard=new CreditCard();
 
-        BankCard bankCard=new CreditCard();
+        BankCard bankCard=new DebitCard();
         ShoppingMall shoppingMall=new ShoppingMall(bankCard);
         shoppingMall.doPurchaseSomething(5000);
     }
